@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const About = () => {
-  const [ref, inView] = useInView({
+  const { ref } = useInView({
     threshold: 0.5,
   });
   return (
-    <section className="section h-[100vh]" id="about" ref={ref}>
+    <section className="section" id="about" ref={ref}>
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           <motion.div
@@ -40,11 +40,11 @@ const About = () => {
               that is scalable as projects grow. I am excited about the prospect
               of exploring new technologies and expanding my skillset.
             </p>
-            <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">
+            {/* <div className="flex gap-x-8 items-center">
+              <button className="btn btn-lg" smooth={true}>
                 <a href="#contact">Contact Me</a>
               </button>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

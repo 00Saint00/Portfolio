@@ -1,5 +1,6 @@
 import Image from "../assets/avatar.svg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiFillMail } from "react-icons/ai";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -73,7 +74,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="flex text-[25pxx] gap-x-7 max-w-max mx-auto lg:mx-0"
+              className="flex text-[30px] gap-x-7 max-w-max mx-auto lg:mx-0"
             >
               <a href="https://github.com/00Saint00" target="_blank">
                 <FaGithub />
@@ -83,6 +84,9 @@ const Banner = () => {
                 target="_blank"
               >
                 <FaLinkedin />
+              </a>
+              <a href="mailto:paulotomewo3@gmail.com" target="_blank">
+                <AiFillMail />
               </a>
             </motion.div>
           </div>

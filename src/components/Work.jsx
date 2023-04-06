@@ -8,7 +8,7 @@ import ProjectCard from "./ProjectCard";
 
 const Work = () => {
   return (
-    <section className="section" id="work">
+    <section className="section mt-10" id="work">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div
@@ -16,17 +16,17 @@ const Work = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
-            className="flex-1 flex flex-col gap-y-20 mb-10 lg:mb-0"
+            className="flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0"
           >
             {/*text  */}
             <div>
               <h2 className="h2 leading-tight text-accent">My Projects</h2>
-              <p className="max-w-sm mb-[6.6rem]">
+              {/* <p className="max-w-sm mb-[6.6rem]">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
                 cupiditate ipsa adipisci quibusdam amet nemo sapiente vero dicta
                 magnam dolorum, accusantium officiis! Ab eius non deserunt
                 praesentium obcaecati eos perspiciatis.
-              </p>
+              </p> */}
             </div>
             {/* images */}
             <ProjectCard
@@ -38,10 +38,18 @@ const Work = () => {
               }
               previewLink={"https://advicegenerator-b8e303.netlify.app/"}
             />
+            <ProjectCard
+              image={Img1}
+              title={"Advice Generator App"}
+              githubLink={
+                "https://github.com/00Saint00/advice-generator-app-main"
+              }
+              previewLink={"https://advicegenerator-b8e303.netlify.app/"}
+            />
           </motion.div>
           <motion.div
             transition={{ duration: 1.2, staggerChildren: 0.5 }}
-            className="flex-1 flex flex-col gap-y-12"
+            className="flex-1 flex flex-col gap-y-10 "
           >
             {/* image */}
             <ProjectCard

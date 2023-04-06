@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { BsFillEyeFill } from "react-icons/bs";
 
 const ProjectCard = ({
-  title = "Project Title",
+  title,
   image,
 
   animate = true,

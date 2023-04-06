@@ -1,28 +1,47 @@
-import React, { useMemo } from "react";
+// import React, { useMemo } from "react";
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 const Services = () => {
-  const service = useMemo(
-    () => [
-      {
-        name: "Frontend Development",
-        description:
-          "High quality development of sites with keen attention to detail.",
-      },
-      {
-        name: "Clean Code",
-        description:
-          "Clean code practices to maintain the main concepts and skills needed to use code and computational thinking.",
-      },
-      {
-        name: "Web Development",
-        description:
-          "Meticulous development of websites that are up to standard and can render properly on any web browser.",
-      },
-    ],
-    []
-  );
+  const [service] = useState([
+    {
+      name: "Frontend Development",
+      description:
+        "High quality development of sites with keen attention to detail.",
+    },
+    {
+      name: "Clean Code",
+      description:
+        "Clean code practices to maintain the main concepts and skills needed to use code and computational thinking.",
+    },
+    {
+      name: "Web Development",
+      description:
+        "Meticulous development of websites that are up to standard and can render properly on any web browser.",
+    },
+  ]);
+
+  // const service = useMemo(
+  //   () => [
+  //     {
+  //       name: "Frontend Development",
+  //       description:
+  //         "High quality development of sites with keen attention to detail.",
+  //     },
+  //     {
+  //       name: "Clean Code",
+  //       description:
+  //         "Clean code practices to maintain the main concepts and skills needed to use code and computational thinking.",
+  //     },
+  //     {
+  //       name: "Web Development",
+  //       description:
+  //         "Meticulous development of websites that are up to standard and can render properly on any web browser.",
+  //     },
+  //   ],
+  //   []
+  // );
 
   return (
     <div className="section" id="services">
