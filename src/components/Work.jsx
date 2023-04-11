@@ -18,17 +18,10 @@ const Work = () => {
             viewport={{ once: false, amount: 0.4 }}
             className="flex-1 flex flex-col gap-y-10 mb-10 lg:mb-0"
           >
-            {/*text  */}
             <div>
               <h2 className="h2 leading-tight text-accent">My Projects</h2>
-              {/* <p className="max-w-sm mb-[6.6rem]">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil
-                cupiditate ipsa adipisci quibusdam amet nemo sapiente vero dicta
-                magnam dolorum, accusantium officiis! Ab eius non deserunt
-                praesentium obcaecati eos perspiciatis.
-              </p> */}
             </div>
-            {/* images */}
+
             <ProjectCard
               image={Img1}
               animate={false}
@@ -51,14 +44,13 @@ const Work = () => {
             transition={{ duration: 1.2, staggerChildren: 0.5 }}
             className="flex-1 flex flex-col gap-y-10 "
           >
-            {/* image */}
             <ProjectCard
               image={Img2}
               title={"Four Card Feather Section"}
               githubLink={"https://github.com/00Saint00/Four-card"}
               previewLink={"https://scintillating-cascaron-a5ae00.netlify.app/"}
             />
-            {/* image */}
+
             <ProjectCard
               image={Img3}
               title={"Rest Country"}

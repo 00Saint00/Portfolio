@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
-const Banner = () => {
+const Banner = ({ handleOpen }) => {
   return (
     <section
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
@@ -33,9 +33,9 @@ const Banner = () => {
               <TypeAnimation
                 speed={30}
                 sequence={[
-                  "I am Paul Otomewo",
+                  "My Name is Paul Otomewo",
                   2000,
-                  "A Frontend Developer",
+                  "I am Frontend Developer",
                   2000,
                 ]}
                 className="text-accent"
@@ -43,15 +43,7 @@ const Banner = () => {
                 repeat={Infinity}
               />
             </motion.div>
-            {/* <motion.p
-              variants={fadeIn("up", 0.4)}
-              initial="hidden"
-              whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
-              className="mb-5 max-w-lg mx-auto lg:mx-0"
-            >
-              Lorem ipsum dolor sit amet. Vel unde facilis aut totam tenetur.
-            </motion.p> */}
+
             <motion.div
               variants={fadeIn("up", 0.7)}
               initial="hidden"
@@ -62,12 +54,13 @@ const Banner = () => {
               <button className="btn btn-lg">
                 <a href="#contact">Contact Me</a>
               </button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
-              </a>
+              <button className="btn btn-lg" onClick={handleOpen}>
+                <a href="#" className="">
+                  My CV
+                </a>
+              </button>
             </motion.div>
-
-            {/* social */}
+            {/* text-gradient btn-link */}
 
             <motion.div
               variants={fadeIn("up", 0.7)}

@@ -7,7 +7,6 @@ const Contact = () => {
     <div className="py-16 lg:section" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
-          {/* text */}
           <motion.div
             variants={fadeIn("right", 0.5)}
             initial="hidden"
@@ -22,7 +21,7 @@ const Contact = () => {
               Let's work <br /> together!
             </h2>
           </motion.div>
-          {/* form */}
+
           <motion.form
             variants={fadeIn("left", 0.5)}
             initial="hidden"
@@ -44,7 +43,10 @@ const Contact = () => {
               className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all "
               placeholder="Your Message"
             ></textarea>
-            <button className="btn btn-lg">Send Message</button>
+
+            <button className="btn btn-lg">
+              <a href="mailto:paulotomewo3@gmail.com">Send</a>
+            </button>
           </motion.form>
         </div>
       </div>

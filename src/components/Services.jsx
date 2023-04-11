@@ -1,5 +1,5 @@
 // import React, { useMemo } from "react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -60,7 +60,7 @@ const Services = () => {
               I am a Frontend Developer with a year of experience
             </h3>
           </motion.div>
-          {/* services */}
+
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
@@ -68,7 +68,6 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            {/* list */}
             <div>
               {service.map((service, index) => {
                 const { name, description } = service;
