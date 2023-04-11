@@ -56,9 +56,6 @@ const Services = () => {
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6">What I Do</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
-              I am a Frontend Developer with a year of experience
-            </h3>
           </motion.div>
 
           <motion.div
