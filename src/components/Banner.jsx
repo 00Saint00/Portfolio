@@ -35,7 +35,7 @@ const Banner = ({ handleOpen }) => {
                 sequence={[
                   "My Name is Paul Otomewo",
                   2000,
-                  "I am Frontend Developer",
+                  "I am a Frontend Developer",
                   2000,
                 ]}
                 className="text-accent"
