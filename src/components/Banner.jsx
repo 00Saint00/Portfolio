@@ -55,9 +55,7 @@ const Banner = ({ handleOpen }) => {
                 <a href="#contact">Contact Me</a>
               </button>
               <button className="btn btn-lg" onClick={handleOpen}>
-                <a href="#" className="">
-                  My CV
-                </a>
+                <a href=""> My CV</a>
               </button>
             </motion.div>
             {/* text-gradient btn-link */}
@@ -69,16 +67,13 @@ const Banner = ({ handleOpen }) => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[30px] gap-x-7 max-w-max mx-auto lg:mx-0"
             >
-              <a href="https://github.com/00Saint00" target="_blank">
+              <a href="https://github.com/00Saint00">
                 <FaGithub />
               </a>
-              <a
-                href="https://www.linkedin.com/in/paul-otomewo-476142188/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/paul-otomewo-476142188/">
                 <FaLinkedin />
               </a>
-              <a href="mailto:paulotomewo3@gmail.com" target="_blank">
+              <a href="mailto:paulotomewo3@gmail.com">
                 <AiFillMail />
               </a>
             </motion.div>

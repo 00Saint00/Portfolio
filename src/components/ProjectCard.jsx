@@ -30,12 +30,12 @@ const ProjectCard = ({
         <span className="text-[30px] text-gradient">{title}</span>
       </div>
       <button className="absolute -bottom-full group-hover:bottom-8 left-12 sm:group-hover:bottom-14 transition-all duration-1000 z-50 text-[30px]">
-        <a href={githubLink} target="_blank">
+        <a href={githubLink}>
           <FaGithub />
         </a>
       </button>
       <button className="absolute -bottom-full group-hover:bottom-8 right-12 sm:group-hover:bottom-14 transition-all duration-1000 z-50 text-[25px]">
-        <a href={previewLink} target="_blank">
+        <a href={previewLink}>
           <BsFillEyeFill />
         </a>
       </button>
