@@ -43,7 +43,7 @@ const Home = () => {
               height: "100%",
             }}
           >
-            <object data={pdfFile} style={{ height: "600px", width: "80vw" }}>
+            <object data={pdfFile} style={{ height: "100%", width: "80vw" }}>
               cv
             </object>
           </div>
