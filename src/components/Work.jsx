@@ -4,6 +4,7 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/Img1.jpg";
 import Img2 from "../assets/Img2.jpg";
 import Img3 from "../assets/Img3.jpg";
+import Img4 from "../assets/clone.png";
 import ProjectCard from "./ProjectCard";
 
 const Work = () => {
@@ -23,13 +24,11 @@ const Work = () => {
             </div>
 
             <ProjectCard
-              image={Img1}
+              image={Img4}
               animate={false}
-              title={"Advice Generator App"}
-              githubLink={
-                "https://github.com/00Saint00/advice-generator-app-main"
-              }
-              previewLink={"https://advicegenerator-b8e303.netlify.app/"}
+              title={"Udemy Clone"}
+              githubLink={"https://github.com/00Saint00/udclone"}
+              previewLink={"https://udclone.netlify.app/"}
             />
             <ProjectCard
               image={Img1}
