@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import Img1 from "../assets/Img1.jpg";
 import Img2 from "../assets/Img2.jpg";
-import Img3 from "../assets/Img3.jpg";
+import Img3 from "../assets/Img3.png";
 import Img4 from "../assets/clone.png";
 import ProjectCard from "./ProjectCard";
 
