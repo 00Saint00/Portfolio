@@ -53,8 +53,8 @@ const Work = () => {
             <ProjectCard
               image={Img3}
               title={"Rest Country"}
-              githubLink={"https://github.com/00Saint00/Country-api"}
-              previewLink={"https://verdant-dango-27b738.netlify.app/"}
+              githubLink={"https://github.com/00Saint00/countries"}
+              previewLink={"https://countries-ecru-xi.vercel.app/"}
             />
           </motion.div>
         </div>
