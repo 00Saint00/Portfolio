@@ -5,7 +5,10 @@ import Img1 from "../assets/Img1.jpg";
 import Img2 from "../assets/Img2.jpg";
 import Img3 from "../assets/Img3.png";
 import Img4 from "../assets/clone.png";
+import IPA from "../assets/IPA.png";
+import HRF from "../assets/HRF.png";
 import ProjectCard from "./ProjectCard";
+import { Carousel } from "react-responsive-carousel";
 
 const Work = () => {
   return (
@@ -24,19 +27,19 @@ const Work = () => {
             </div>
 
             <ProjectCard
-              image={Img4}
+              image={HRF}
               animate={false}
-              title={"Udemy Clone"}
-              githubLink={"https://github.com/00Saint00/udclone"}
-              previewLink={"https://udclone.netlify.app/"}
+              title={"Hrf"}
+              // githubLink={"https://github.com/00Saint00/udclone"}
+              previewLink={"https://hrf.seniordev.co.uk/"}
             />
             <ProjectCard
-              image={Img1}
-              title={"Advice Generator App"}
-              githubLink={
-                "https://github.com/00Saint00/advice-generator-app-main"
-              }
-              previewLink={"https://advicegenerator-b8e303.netlify.app/"}
+              image={IPA}
+              title={"IPA"}
+              previewLink={"https://ipa.rivercms.net/"}
+              // githubLink={
+              //   "https://github.com/00Saint00/advice-generator-app-main"
+              // }
             />
           </motion.div>
           <motion.div
@@ -45,9 +48,9 @@ const Work = () => {
           >
             <ProjectCard
               image={Img2}
-              title={"Four Card Feather Section"}
-              githubLink={"https://github.com/00Saint00/Four-card"}
-              previewLink={"https://scintillating-cascaron-a5ae00.netlify.app/"}
+              title={"IP Address Tracker"}
+              githubLink={"https://ip-tracker-five-lime.vercel.app/"}
+              previewLink={"https://ip-address-tracker-p.netlify.app/"}
             />
 
             <ProjectCard
