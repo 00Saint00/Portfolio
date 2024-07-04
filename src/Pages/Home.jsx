@@ -22,7 +22,7 @@ const Home = () => {
   const [pdfFile, setPdfFile] = useState("");
 
   useEffect(() => {
-    const file = require("../assets/cv (1).pdf");
+    const file = require("../assets/OTOMEWO.pdf");
     setPdfFile(file);
   }, []);
   return (
